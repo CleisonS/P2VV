@@ -1,9 +1,12 @@
+package teste;
+
+import dominio.Usuario;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.testng.annotations.BeforeClass;
+
 
 
 import static io.restassured.RestAssured.*;
@@ -36,13 +39,14 @@ public class OperacaoUsuario {
     @Test
     public void criarUsuario(){
         //POST
-        given().log().all().
-                contentType(ContentType.JSON).
-               body("{\"name\": \"Tunico\", \"job\": \"progamador\" }").
-        when().
-                post("https://reqres.in/api/users").
-        then().
-                statusCode(HttpStatus.SC_CREATED).
-                body("name", is("Tunico"));
+        Usuario usuario = new Usuario("Tunico","programado");
+                given().log().all().
+                        contentType(ContentType.JSON).
+                       body(usuario).
+                when().
+                        post("/users").
+                then().
+                        statusCode(HttpStatus.SC_CREATED).
+                        body("name", is("Tunico"));
     }
 }
