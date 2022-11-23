@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="Testes inicias">
+    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="Teste de listar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UserOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserOperations.java" afterDir="false" />
     </list>
@@ -47,10 +47,11 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.UserOperations.testMetaDados">
+  <component name="RunManager" selected="Gradle.UserOperations.criarUsuario">
     <configuration name="UserOperations.creatUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -65,6 +66,29 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;UserOperations.creatUser&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UserOperations.criarUsuario" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;UserOperations.criarUsuario&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UserOperations.criarUsuario" />
         <item itemvalue="Gradle.UserOperations.testMetaDados" />
         <item itemvalue="Gradle.UserOperations.creatUser" />
       </list>
@@ -112,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669156874161</updated>
-      <workItem from="1669156880435" duration="9468000" />
+      <workItem from="1669156880435" duration="11840000" />
     </task>
     <task id="LOCAL-00001" summary="Testes inicias">
       <created>1669168259434</created>
@@ -128,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669168552986</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Teste de listar">
+      <created>1669171308956</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669171308956</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +180,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Testes inicias" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testes inicias" />
+    <MESSAGE value="Teste de listar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Teste de listar" />
   </component>
 </project>
