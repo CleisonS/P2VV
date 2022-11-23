@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/UserOperations.java" afterDir="false" />
+    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="Testes inicias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/cleis/OneDrive/Área de Trabalho/VV-APITesting",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -113,8 +112,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1669156874161</updated>
-      <workItem from="1669156880435" duration="7297000" />
+      <workItem from="1669156880435" duration="9468000" />
     </task>
+    <task id="LOCAL-00001" summary="Testes inicias">
+      <created>1669168259434</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669168259434</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testes inicias">
+      <created>1669168552986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669168552986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,5 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Testes inicias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testes inicias" />
   </component>
 </project>
