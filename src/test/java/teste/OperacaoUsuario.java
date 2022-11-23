@@ -2,6 +2,7 @@ package teste;
 
 import dominio.Usuario;
 import io.restassured.RestAssured;
+import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
@@ -9,17 +10,20 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 
-
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.*;
 
-public class OperacaoUsuario {
-    @BeforeAll
-    public static void setUp(){
-        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails(LogDetail.ALL);//log de falhas.
-        baseURI = "https://reqres.in";//
-       basePath = "/api";
-    }
+public class OperacaoUsuario extends BaseTestes {
+//    @BeforeAll
+//    public static void setUp(){
+//        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails(LogDetail.ALL);//log de falhas.
+//        baseURI = "https://reqres.in";//
+//        basePath = "/api";
+//
+//       requestSpecification = new RequestSpecBuilder()
+//               .setContentType(ContentType.JSON)
+//               .build();
+//    }
     @Test
     public void testMetaDados(){
         //GET
@@ -37,9 +41,9 @@ public class OperacaoUsuario {
     public void criarUsuario(){
         //POST
         Usuario usuario = new Usuario("Tunico","programado");
-                given().
-                        contentType(ContentType.JSON).
-                       body(usuario).
+                given()
+                        //contentType(ContentType.JSON)
+                        .body(usuario).
                 when().
                         post("/users").
                 then().
