@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="Teste de criacao de usuario">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="urls">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OperacaoUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "C:/Users/cleis/Desktop/VV/P2VV",
     "nodejs_package_manager_path": "npm",
@@ -55,7 +56,53 @@
     "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.UserOperations.testMetaDados">
+  <component name="RunManager" selected="Gradle.OperacaoUsuario.criarUsuario">
+    <configuration name="OperacaoUsuario.criarUsuario" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;OperacaoUsuario.criarUsuario&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="OperacaoUsuario.testMetaDados" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;OperacaoUsuario.testMetaDados&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="UserOperations" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -70,29 +117,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;UserOperations&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="UserOperations.creatUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;UserOperations.creatUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -150,10 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OperacaoUsuario.criarUsuario" />
+        <item itemvalue="Gradle.OperacaoUsuario.testMetaDados" />
         <item itemvalue="Gradle.UserOperations.testMetaDados" />
         <item itemvalue="Gradle.UserOperations" />
         <item itemvalue="Gradle.UserOperations.criarUsuario" />
-        <item itemvalue="Gradle.UserOperations.creatUser" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +191,7 @@
       <option name="presentableId" value="Default" />
       <updated>1669156874161</updated>
       <workItem from="1669156880435" duration="13735000" />
-      <workItem from="1669176804866" duration="4586000" />
+      <workItem from="1669176804866" duration="5585000" />
     </task>
     <task id="LOCAL-00001" summary="Testes inicias">
       <created>1669168259434</created>
@@ -196,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669174004966</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="urls">
+      <created>1669182065373</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669182065373</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,6 +250,7 @@
     <MESSAGE value="Testes inicias" />
     <MESSAGE value="Teste de listar" />
     <MESSAGE value="Teste de criacao de usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Teste de criacao de usuario" />
+    <MESSAGE value="urls" />
+    <option name="LAST_COMMIT_MESSAGE" value="urls" />
   </component>
 </project>
