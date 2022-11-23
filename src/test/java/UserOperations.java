@@ -1,21 +1,30 @@
+import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import org.apache.http.HttpStatus;
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import  java.util.*;
+import org.testng.annotations.BeforeClass;
 
-import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
+import static io.restassured.RestAssured.*;
 import static org.hamcrest.CoreMatchers.*;
 
 public class UserOperations {
 
-   // public static String baseUrl = "https://petstore.swagger.io/v2/swagger.json";
+    @BeforeClass
+    public static void setUp(){
+        RestAssured.enableLoggingOfRequestAndResponseIfValidationFails();
+        //log de respostas caso as validações falhem
+        RestAssured.baseURI = "https://reqres.in";// não ta puxando pelo baseURI
+        RestAssured.basePath = "/api";
+    }
 
     @Test
     public void testMetaDados(){
+        //GET
+        given().
+                //param("page","2").
+                params("page", "2").
         when().
-                get("https://reqres.in/api/users?page=2").
+                get("https://reqres.in/api/users").//era pra puxar do baseURI
         then().
                 statusCode(HttpStatus.SC_OK)
                 .body("page", is(2))
@@ -25,6 +34,7 @@ public class UserOperations {
 
     @Test
     public void criarUsuario(){
+        //POST
         given().log().all().
                 contentType(ContentType.JSON).
                body("{\"name\": \"Tunico\", \"job\": \"progamador\" }").
