@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="Log de erros concertado">
-      <change afterPath="$PROJECT_DIR$/src/test/java/teste/BaseTestes.java" afterDir="false" />
+    <list default="true" id="ced7f1e4-97a6-410d-a0ec-dbf1be1fe660" name="Changes" comment="Base de teste extern">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dominio/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dominio/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/teste/OperacaoUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/teste/OperacaoUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,6 +103,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="OperacaoUsuario.falhaRegistroEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;teste.OperacaoUsuario.falhaRegistroEmail&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="OperacaoUsuario.testMetaDados (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,29 +140,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;teste.OperacaoUsuario.testMetaDados&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="OperacaoUsuario.testMetaDados" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;OperacaoUsuario.testMetaDados&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -176,9 +176,9 @@
       <list>
         <item itemvalue="Gradle.OperacaoUsuario.testMetaDados (1)" />
         <item itemvalue="Gradle.OperacaoUsuario.criarUsuario (1)" />
-        <item itemvalue="Gradle.Tests in 'teste'" />
         <item itemvalue="Gradle.OperacaoUsuario" />
-        <item itemvalue="Gradle.OperacaoUsuario.testMetaDados" />
+        <item itemvalue="Gradle.OperacaoUsuario.falhaRegistroEmail" />
+        <item itemvalue="Gradle.Tests in 'teste'" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +193,8 @@
       <workItem from="1669156880435" duration="13735000" />
       <workItem from="1669176804866" duration="10751000" />
       <workItem from="1669242245604" duration="2104000" />
-      <workItem from="1669244773895" duration="1496000" />
+      <workItem from="1669244773895" duration="5116000" />
+      <workItem from="1669404453274" duration="3856000" />
     </task>
     <task id="LOCAL-00001" summary="Testes inicias">
       <created>1669168259434</created>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669244307937</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Base de teste extern">
+      <created>1669247151191</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1669247151191</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +285,7 @@
     <MESSAGE value="Urls funcionais com baseURI" />
     <MESSAGE value="Serialização e classe de dominio" />
     <MESSAGE value="Log de erros concertado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Log de erros concertado" />
+    <MESSAGE value="Base de teste extern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Base de teste extern" />
   </component>
 </project>

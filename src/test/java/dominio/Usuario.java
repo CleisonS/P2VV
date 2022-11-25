@@ -4,6 +4,7 @@ public class Usuario {
     private String name;
     private String job;
 
+
     public Usuario(){}
 
     public Usuario(String name, String job) {
@@ -18,4 +19,5 @@ public class Usuario {
     public String getJob() {
         return job;
     }
+
 }
